@@ -1,0 +1,69 @@
+.img-fluid{
+
+    font-size: 900px;
+    width:20000;
+    height: 15%;
+    background-image: url('sk.jpg');
+    background-image: url('Changes.jpg');
+    background-image: url('OIP.jpg');
+    background-image: url('learning.jpg');
+}
+.card {
+    margin-bottom: 20px; /* Adjust the value as needed for the desired spacing */
+  }
+  .card-img-top {
+    filter: contrast(80%);
+    height: 300px; /* Adjust the height as needed */
+  object-fit: cover; /* Adjust the value as needed */
+}
+.card-body
+{
+    filter: contrast(20%); 
+}
+
+
+
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+  }
+  .toolbar1 {
+    position: absolute;
+    top: 0;
+    left: 110;
+    right: 110;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+  }
+  .btnnn {
+    margin-right: 20px;
+    color: aliceblue;
+
+    width: 90px; /* Set the width and height to create a circle */
+    height: 50px;
+    border-radius: 50%; /* Makes the button circular by setting the border-radius to 50% */
+    background-color: rgba(8, 17, 96, 0.19); /* Button background color */
+    color: #000; /* Button text color */
+    border: none; /* Remove the default button border */
+    cursor: pointer;
+     
+    
+    
+}
+.h5
+{
+    text-align: center;
+}
+

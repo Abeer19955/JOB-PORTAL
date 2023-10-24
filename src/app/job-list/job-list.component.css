@@ -1,0 +1,64 @@
+.img-fluid{
+
+    font-size: 900px;
+    width:20;
+    height: 15%;
+    background-image: url('security.jpg');
+    background-image: url('hardware.jpg');
+    background-image: url('engineering.jpg');
+    background-image: url('bussiness.jpg');
+    background-image: url('soft.webp');
+    background-image: url('acou.jpg');
+   
+}
+.card {
+    margin-bottom: 20px; /* Adjust the value as needed for the desired spacing */
+  }
+  .card-img-top {
+    filter: contrast(80%); /* Adjust the value as needed */
+}
+.card-body
+{
+    filter: contrast(20%); 
+}
+.card-img-same-height {
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+  }
+  .toolbar1 {
+    position: absolute;
+    top: 0;
+    left: 110;
+    right: 110;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+  }
+  .btnnn {
+    margin-right: 50px;
+    color: aliceblue; 
+    
+    
+}
+.h5
+{
+    text-align: center;
+}

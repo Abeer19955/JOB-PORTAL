@@ -1,0 +1,60 @@
+<div class="toolbar" role="banner" >
+  <h5 style="text-align: center;">welcome to job sekeer page</h5> 
+  <a routerLink="/home" mat-raised-button color="blue">Home</a>
+  </div>
+
+<mat-card>
+  <mat-card-header>
+      <h2>Job Sekeer</h2>
+  </mat-card-header>
+  <mat-card-content>
+      <form class="example-form"  >
+          <mat-form-field class="example-full-width">
+            <mat-label>Username</mat-label>
+            <input matInput formControlName="id" >
+          </mat-form-field>
+          <mat-form-field class="example-full-width">
+              <mat-label>Name</mat-label>
+              <input matInput formControlName="name" >
+            </mat-form-field>
+            <mat-form-field class="example-full-width">
+              <mat-label>ID Number</mat-label>
+              <input type="idnumber" matInput formControlName="idnumber" >
+            </mat-form-field>
+            <mat-form-field class="example-full-width">
+              <mat-label>Password</mat-label>
+              <input type="password" matInput formControlName="password" >
+            </mat-form-field>
+            <mat-form-field class="example-full-width">
+              <mat-label>Email</mat-label>
+              <input matInput formControlName="email" >
+            </mat-form-field>
+            <mat-form-field class="example-full-width">
+            
+              <mat-label>Education</mat-label>
+              <select matNativeControl required>
+                <option value="Diplomas">Diploma</option>
+                <option value="Bachelor’sDegree">Bachelor’sDegree</option>
+                <option value="Master’s Degree ">Master’s Degree</option>
+               
+              </select>
+           
+            </mat-form-field>
+            
+            <mat-form-field>
+              <mat-label>Birthday Date</mat-label>
+              <input matInput [matDatepicker]="picker">
+              <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+              <mat-datepicker #picker></mat-datepicker>
+            </mat-form-field>
+            
+            
+            
+            
+            <div>
+              <button mat-raised-button color="primary">Save</button>
+              <a routerLink="/home" mat-raised-button color="accent">Back to home</a>
+            </div>
+        </form>
+  </mat-card-content>
+</mat-card>

@@ -1,0 +1,49 @@
+{
+  "user": [
+    {
+      "id": "Abeer12",
+      "name": "Abeer",
+      "password": "@AbeerAli29",
+      "email": "abeerali19955@gmail.com",
+      "gender": "female",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "id": "Abeer1995",
+      "name": "Abeer",
+      "password": "@AbeerAli293",
+      "email": "Abeer@itec.edu.om",
+      "gender": "female",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "id": "nawal1997",
+      "name": "nawal",
+      "password": "@AbeerAli2935",
+      "email": "nawalalial.shukaili@gmail.com",
+      "gender": "female",
+      "role": "",
+      "isactive": false
+    },
+    {
+      "id": "Abeer19955",
+      "name": "Abeerr",
+      "password": "@AbeerAli2931",
+      "email": "abeer19955@gmail.com",
+      "gender": "female",
+      "role": "",
+      "isactive": false
+    },
+    {
+      "id": "Abeer199566",
+      "name": "Abeer",
+      "password": "@AbeerAli29355",
+      "email": "abeer12@gmail.com",
+      "gender": "female",
+      "role": "",
+      "isactive": false
+    }
+  ]
+}
